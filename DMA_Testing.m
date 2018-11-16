@@ -8,7 +8,7 @@ clc; close all; clear;
 %=====================%
 
 
-addpath('/home/vkk160330/Documents/Matlab Toolboxes/FastISM');
+addpath('./FastISM');
 
 %=============== Room Simulations ===============%
 Room.Fs = 16000;               
@@ -76,7 +76,7 @@ polar(T,R);
 
 
 
-rmpath('/home/vkk160330/Documents/Matlab Toolboxes/FastISM');
+rmpath('./FastISM');
     
     
     
